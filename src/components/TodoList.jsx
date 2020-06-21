@@ -83,7 +83,7 @@ function TodoList() {
 
   return (
     <>
-    <input type="text" onChange={textOnChange}/>
+    <input type="text" onChange={textOnChange} value={todoName}/>
     <Button variant="contained" color="primary" onClick = {btnOnClick}>追加</Button>
     <ul>
       {
